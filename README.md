@@ -1,0 +1,2 @@
+# smart-lecture-system
+
