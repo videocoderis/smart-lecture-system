@@ -4,11 +4,11 @@ from segmenter import build_segments
 
 class VideoAgent:
     def __init__(self, model_size="base"):
-        print("🧠 Loading Video Agent...")
+        print("Loading Video Agent...")
       #  self.transcriber = WhisperTranscriber(model_size)
 
     def run(self, video_path, audio_path):
-        print("🎥 Video Agent started...")
+        print("Video Agent started...")
 
         # Step 1: Extract audio
         audio_path1 = extract_audio(video_path, audio_path)
@@ -29,7 +29,7 @@ class VideoAgent:
             "segments": structured_segments
         }
 
-        print("✅ Video Agent completed")
+        print("Video Agent completed")
 
         return result
 
