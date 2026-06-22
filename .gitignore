@@ -179,3 +179,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# ==========================================
+# Audio and Video Media Exclusions
+# ==========================================
+# Ignore all MP4 video files
+*.mp4
+
+# Ignore all WAV audio files
+*.wav
+
+*.txt
